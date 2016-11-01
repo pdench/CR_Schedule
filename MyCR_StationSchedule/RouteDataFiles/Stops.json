@@ -1,0 +1,3157 @@
+﻿{
+  "route":  [
+    {
+      "route_id": "CR-Franklin",
+
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Back Bay",
+              "stop_name": "Back Bay",
+              "parent_station": "place-bbsta",
+              "parent_station_name": "Back Bay",
+              "stop_lat": "42.347487",
+              "stop_lon": "-71.075399"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Ruggles",
+              "stop_name": "Ruggles",
+              "parent_station": "place-rugg",
+              "parent_station_name": "Ruggles",
+              "stop_lat": "42.336505",
+              "stop_lon": "-71.089189"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Hyde Park",
+              "stop_name": "Hyde Park",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.25503",
+              "stop_lon": "-71.125526"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Readville",
+              "stop_name": "Readville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.238405",
+              "stop_lon": "-71.133246"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Endicott",
+              "stop_name": "Endicott",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.233249",
+              "stop_lon": "-71.158647"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Dedham Corp Center",
+              "stop_name": "Dedham Corp Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.225896",
+              "stop_lon": "-71.173806"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Islington",
+              "stop_name": "Islington",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.22105",
+              "stop_lon": "-71.183961"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Norwood Depot",
+              "stop_name": "Norwood Depot",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.196857",
+              "stop_lon": "-71.196688"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Norwood Central",
+              "stop_name": "Norwood Central",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.188775",
+              "stop_lon": "-71.199665"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Plimptonville",
+              "stop_name": "Plimptonville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.159123",
+              "stop_lon": "-71.236125"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Windsor Gardens",
+              "stop_name": "Windsor Gardens",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.172127",
+              "stop_lon": "-71.219366"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Walpole",
+              "stop_name": "Walpole",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.145477",
+              "stop_lon": "-71.25779"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Norfolk",
+              "stop_name": "Norfolk",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.120694",
+              "stop_lon": "-71.325217"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "Franklin",
+              "stop_name": "Franklin",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.083238",
+              "stop_lon": "-71.396102"
+            },
+            {
+              "stop_order": "15",
+              "stop_id": "Forge Park / 495",
+              "stop_name": "Forge Park/495",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.089941",
+              "stop_lon": "-71.43902"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Forge Park / 495",
+              "stop_name": "Forge Park/495",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.089941",
+              "stop_lon": "-71.43902"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Franklin",
+              "stop_name": "Franklin",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.083238",
+              "stop_lon": "-71.396102"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Norfolk",
+              "stop_name": "Norfolk",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.120694",
+              "stop_lon": "-71.325217"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Walpole",
+              "stop_name": "Walpole",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.145477",
+              "stop_lon": "-71.25779"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Plimptonville",
+              "stop_name": "Plimptonville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.159123",
+              "stop_lon": "-71.236125"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Windsor Gardens",
+              "stop_name": "Windsor Gardens",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.172127",
+              "stop_lon": "-71.219366"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Norwood Central",
+              "stop_name": "Norwood Central",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.188775",
+              "stop_lon": "-71.199665"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Norwood Depot",
+              "stop_name": "Norwood Depot",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.196857",
+              "stop_lon": "-71.196688"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Islington",
+              "stop_name": "Islington",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.22105",
+              "stop_lon": "-71.183961"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Dedham Corp Center",
+              "stop_name": "Dedham Corp Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.225896",
+              "stop_lon": "-71.173806"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Endicott",
+              "stop_name": "Endicott",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.233249",
+              "stop_lon": "-71.158647"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Fairmount",
+              "stop_name": "Fairmount",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.253638",
+              "stop_lon": "-71.11927"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Readville",
+              "stop_name": "Readville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.238405",
+              "stop_lon": "-71.133246"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Ruggles",
+              "stop_name": "Ruggles",
+              "parent_station": "place-rugg",
+              "parent_station_name": "Ruggles",
+              "stop_lat": "42.336505",
+              "stop_lon": "-71.089189"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Morton Street",
+              "stop_name": "Morton Street",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.280994",
+              "stop_lon": "-71.085475"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "Talbot Avenue",
+              "stop_name": "Talbot Avenue",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.292246",
+              "stop_lon": "-71.07814"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "Back Bay",
+              "stop_name": "Back Bay",
+              "parent_station": "place-bbsta",
+              "parent_station_name": "Back Bay",
+              "stop_lat": "42.347487",
+              "stop_lon": "-71.075399"
+            },
+            {
+              "stop_order": "15",
+              "stop_id": "Four Corners / Geneva",
+              "stop_name": "Four Corners/Geneva",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.305037",
+              "stop_lon": "-71.076833"
+            },
+            {
+              "stop_order": "16",
+              "stop_id": "Uphams Corner",
+              "stop_name": "Uphams Corner",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.31867",
+              "stop_lon": "-71.069072"
+            },
+            {
+              "stop_order": "17",
+              "stop_id": "Newmarket",
+              "stop_name": "Newmarket",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.326701",
+              "stop_lon": "-71.066314"
+            },
+            {
+              "stop_order": "18",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Providence",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Back Bay",
+              "stop_name": "Back Bay",
+              "parent_station": "place-bbsta",
+              "parent_station_name": "Back Bay",
+              "stop_lat": "42.347487",
+              "stop_lon": "-71.075399"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Ruggles",
+              "stop_name": "Ruggles",
+              "parent_station": "place-rugg",
+              "parent_station_name": "Ruggles",
+              "stop_lat": "42.336505",
+              "stop_lon": "-71.089189"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Hyde Park",
+              "stop_name": "Hyde Park",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.25503",
+              "stop_lon": "-71.125526"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Route 128",
+              "stop_name": "Route 128",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.209884",
+              "stop_lon": "-71.1471"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Canton Junction",
+              "stop_name": "Canton Junction",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.163204",
+              "stop_lon": "-71.15376"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Canton Center",
+              "stop_name": "Canton Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.15677",
+              "stop_lon": "-71.145601"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Sharon",
+              "stop_name": "Sharon",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.124553",
+              "stop_lon": "-71.184468"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Mansfield",
+              "stop_name": "Mansfield",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.032787",
+              "stop_lon": "-71.219917"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Stoughton",
+              "stop_name": "Stoughton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.124084",
+              "stop_lon": "-71.103627"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Attleboro",
+              "stop_name": "Attleboro",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.940739",
+              "stop_lon": "-71.285094"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "South Attleboro",
+              "stop_name": "South Attleboro",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.897943",
+              "stop_lon": "-71.354621"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Providence",
+              "stop_name": "Providence",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.829293",
+              "stop_lon": "-71.413301"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "TF Green Airport",
+              "stop_name": "TF Green Airport",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.726599",
+              "stop_lon": "-71.442453"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Wickford Junction",
+              "stop_name": "Wickford Junction",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.581289",
+              "stop_lon": "-71.491147"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Stoughton",
+              "stop_name": "Stoughton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.124084",
+              "stop_lon": "-71.103627"
+            },
+            {
+              "stop_order": "1",
+              "stop_id": "Wickford Junction",
+              "stop_name": "Wickford Junction",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.581289",
+              "stop_lon": "-71.491147"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "TF Green Airport",
+              "stop_name": "TF Green Airport",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.726599",
+              "stop_lon": "-71.442453"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Canton Center",
+              "stop_name": "Canton Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.15677",
+              "stop_lon": "-71.145601"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Providence",
+              "stop_name": "Providence",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.829293",
+              "stop_lon": "-71.413301"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "South Attleboro",
+              "stop_name": "South Attleboro",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.897943",
+              "stop_lon": "-71.354621"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Attleboro",
+              "stop_name": "Attleboro",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.940739",
+              "stop_lon": "-71.285094"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Mansfield",
+              "stop_name": "Mansfield",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.032787",
+              "stop_lon": "-71.219917"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Sharon",
+              "stop_name": "Sharon",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.124553",
+              "stop_lon": "-71.184468"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Canton Junction",
+              "stop_name": "Canton Junction",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.163204",
+              "stop_lon": "-71.15376"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Route 128",
+              "stop_name": "Route 128",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.209884",
+              "stop_lon": "-71.1471"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Hyde Park",
+              "stop_name": "Hyde Park",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.25503",
+              "stop_lon": "-71.125526"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Ruggles",
+              "stop_name": "Ruggles",
+              "parent_station": "place-rugg",
+              "parent_station_name": "Ruggles",
+              "stop_lat": "42.336505",
+              "stop_lon": "-71.089189"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Back Bay",
+              "stop_name": "Back Bay",
+              "parent_station": "place-bbsta",
+              "parent_station_name": "Back Bay",
+              "stop_lat": "42.347487",
+              "stop_lon": "-71.075399"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Fairmount",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Newmarket",
+              "stop_name": "Newmarket",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.326701",
+              "stop_lon": "-71.066314"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Uphams Corner",
+              "stop_name": "Uphams Corner",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.31867",
+              "stop_lon": "-71.069072"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Four Corners / Geneva",
+              "stop_name": "Four Corners/Geneva",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.305037",
+              "stop_lon": "-71.076833"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Talbot Avenue",
+              "stop_name": "Talbot Avenue",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.292246",
+              "stop_lon": "-71.07814"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Morton Street",
+              "stop_name": "Morton Street",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.280994",
+              "stop_lon": "-71.085475"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Fairmount",
+              "stop_name": "Fairmount",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.253638",
+              "stop_lon": "-71.11927"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Readville",
+              "stop_name": "Readville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.238405",
+              "stop_lon": "-71.133246"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Readville",
+              "stop_name": "Readville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.238405",
+              "stop_lon": "-71.133246"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Fairmount",
+              "stop_name": "Fairmount",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.253638",
+              "stop_lon": "-71.11927"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Morton Street",
+              "stop_name": "Morton Street",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.280994",
+              "stop_lon": "-71.085475"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Talbot Avenue",
+              "stop_name": "Talbot Avenue",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.292246",
+              "stop_lon": "-71.07814"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Four Corners / Geneva",
+              "stop_name": "Four Corners/Geneva",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.305037",
+              "stop_lon": "-71.076833"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Uphams Corner",
+              "stop_name": "Uphams Corner",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.31867",
+              "stop_lon": "-71.069072"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Newmarket",
+              "stop_name": "Newmarket",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.326701",
+              "stop_lon": "-71.066314"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Fitchburg",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "North Station",
+              "stop_name": "North Station",
+              "parent_station": "place-north",
+              "parent_station_name": "North Station",
+              "stop_lat": "42.365551",
+              "stop_lon": "-71.061251"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Porter Square",
+              "stop_name": "Porter Square",
+              "parent_station": "place-portr",
+              "parent_station_name": "Porter",
+              "stop_lat": "42.388353",
+              "stop_lon": "-71.119159"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Belmont",
+              "stop_name": "Belmont",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.395896",
+              "stop_lon": "-71.17619"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Waverley",
+              "stop_name": "Waverley",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.3876",
+              "stop_lon": "-71.190744"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Waltham",
+              "stop_name": "Waltham",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.374269",
+              "stop_lon": "-71.235598"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Brandeis/ Roberts",
+              "stop_name": "Brandeis/Roberts",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.361728",
+              "stop_lon": "-71.260854"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Kendal Green",
+              "stop_name": "Kendal Green",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.37897",
+              "stop_lon": "-71.282411"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Hastings",
+              "stop_name": "Hastings",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.385755",
+              "stop_lon": "-71.289203"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Silver Hill",
+              "stop_name": "Silver Hill",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.395625",
+              "stop_lon": "-71.302357"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Lincoln",
+              "stop_name": "Lincoln",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.414229",
+              "stop_lon": "-71.325344"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Concord",
+              "stop_name": "Concord",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.456565",
+              "stop_lon": "-71.357677"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "West Concord",
+              "stop_name": "West Concord",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.457043",
+              "stop_lon": "-71.392892"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "South Acton",
+              "stop_name": "South Acton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.460574",
+              "stop_lon": "-71.457804"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "Littleton / Rte 495",
+              "stop_name": "Littleton/Rte 495",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.519236",
+              "stop_lon": "-71.502643"
+            },
+            {
+              "stop_order": "15",
+              "stop_id": "Ayer",
+              "stop_name": "Ayer",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.559074",
+              "stop_lon": "-71.588476"
+            },
+            {
+              "stop_order": "16",
+              "stop_id": "Shirley",
+              "stop_name": "Shirley",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.545089",
+              "stop_lon": "-71.648004"
+            },
+            {
+              "stop_order": "17",
+              "stop_id": "North Leominster",
+              "stop_name": "North Leominster",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.539017",
+              "stop_lon": "-71.739186"
+            },
+            {
+              "stop_order": "17",
+              "stop_id": "Wachusett",
+              "stop_name": "Wachusett",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.553477",
+              "stop_lon": "-71.848488"
+            },
+            {
+              "stop_order": "18",
+              "stop_id": "Fitchburg",
+              "stop_name": "Fitchburg",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.58072",
+              "stop_lon": "-71.792611"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Wachusett",
+              "stop_name": "Wachusett",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.553477",
+              "stop_lon": "-71.848488"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Fitchburg",
+              "stop_name": "Fitchburg",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.58072",
+              "stop_lon": "-71.792611"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "North Leominster",
+              "stop_name": "North Leominster",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.539017",
+              "stop_lon": "-71.739186"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Shirley",
+              "stop_name": "Shirley",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.545089",
+              "stop_lon": "-71.648004"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Ayer",
+              "stop_name": "Ayer",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.559074",
+              "stop_lon": "-71.588476"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Littleton / Rte 495",
+              "stop_name": "Littleton/Rte 495",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.519236",
+              "stop_lon": "-71.502643"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "South Acton",
+              "stop_name": "South Acton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.460574",
+              "stop_lon": "-71.457804"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "West Concord",
+              "stop_name": "West Concord",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.457043",
+              "stop_lon": "-71.392892"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Concord",
+              "stop_name": "Concord",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.456565",
+              "stop_lon": "-71.357677"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Lincoln",
+              "stop_name": "Lincoln",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.414229",
+              "stop_lon": "-71.325344"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Silver Hill",
+              "stop_name": "Silver Hill",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.395625",
+              "stop_lon": "-71.302357"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Hastings",
+              "stop_name": "Hastings",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.385755",
+              "stop_lon": "-71.289203"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Kendal Green",
+              "stop_name": "Kendal Green",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.37897",
+              "stop_lon": "-71.282411"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Brandeis/ Roberts",
+              "stop_name": "Brandeis/Roberts",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.361728",
+              "stop_lon": "-71.260854"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "Waltham",
+              "stop_name": "Waltham",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.374269",
+              "stop_lon": "-71.235598"
+            },
+            {
+              "stop_order": "15",
+              "stop_id": "Waverley",
+              "stop_name": "Waverley",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.3876",
+              "stop_lon": "-71.190744"
+            },
+            {
+              "stop_order": "16",
+              "stop_id": "Belmont",
+              "stop_name": "Belmont",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.395896",
+              "stop_lon": "-71.17619"
+            },
+            {
+              "stop_order": "17",
+              "stop_id": "Porter Square",
+              "stop_name": "Porter Square",
+              "parent_station": "place-portr",
+              "parent_station_name": "Porter",
+              "stop_lat": "42.388353",
+              "stop_lon": "-71.119159"
+            },
+            {
+              "stop_order": "18",
+              "stop_id": "North Station",
+              "stop_name": "North Station",
+              "parent_station": "place-north",
+              "parent_station_name": "North Station",
+              "stop_lat": "42.365551",
+              "stop_lon": "-71.061251"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Worcester",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Back Bay",
+              "stop_name": "Back Bay",
+              "parent_station": "place-bbsta",
+              "parent_station_name": "Back Bay",
+              "stop_lat": "42.347487",
+              "stop_lon": "-71.075399"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Yawkey",
+              "stop_name": "Yawkey",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.347581",
+              "stop_lon": "-71.099974"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Newtonville",
+              "stop_name": "Newtonville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.351603",
+              "stop_lon": "-71.207338"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "West Newton",
+              "stop_name": "West Newton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.347878",
+              "stop_lon": "-71.230528"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Auburndale",
+              "stop_name": "Auburndale",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.345725",
+              "stop_lon": "-71.250826"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Wellesley Farms",
+              "stop_name": "Wellesley Farms",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.323608",
+              "stop_lon": "-71.272288"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Wellesley Hills",
+              "stop_name": "Wellesley Hills",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.31037",
+              "stop_lon": "-71.277044"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Wellesley Square",
+              "stop_name": "Wellesley Square",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.297526",
+              "stop_lon": "-71.294173"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Natick Center",
+              "stop_name": "Natick Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.285719",
+              "stop_lon": "-71.347133"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "West Natick",
+              "stop_name": "West Natick",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.283064",
+              "stop_lon": "-71.391797"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Framingham",
+              "stop_name": "Framingham",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.276719",
+              "stop_lon": "-71.416792"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Ashland",
+              "stop_name": "Ashland",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.26149",
+              "stop_lon": "-71.482161"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "Southborough",
+              "stop_name": "Southborough",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.267024",
+              "stop_lon": "-71.524371"
+            },
+            {
+              "stop_order": "15",
+              "stop_id": "Westborough",
+              "stop_name": "Westborough",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.269644",
+              "stop_lon": "-71.647076"
+            },
+            {
+              "stop_order": "16",
+              "stop_id": "Grafton",
+              "stop_name": "Grafton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.2466",
+              "stop_lon": "-71.685325"
+            },
+            {
+              "stop_order": "17",
+              "stop_id": "Worcester",
+              "stop_name": "Worcester",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.261461",
+              "stop_lon": "-71.794888"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Worcester",
+              "stop_name": "Worcester",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.261461",
+              "stop_lon": "-71.794888"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Grafton",
+              "stop_name": "Grafton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.2466",
+              "stop_lon": "-71.685325"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Westborough",
+              "stop_name": "Westborough",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.269644",
+              "stop_lon": "-71.647076"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Southborough",
+              "stop_name": "Southborough",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.267024",
+              "stop_lon": "-71.524371"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Ashland",
+              "stop_name": "Ashland",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.26149",
+              "stop_lon": "-71.482161"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Framingham",
+              "stop_name": "Framingham",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.276719",
+              "stop_lon": "-71.416792"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "West Natick",
+              "stop_name": "West Natick",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.283064",
+              "stop_lon": "-71.391797"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Natick Center",
+              "stop_name": "Natick Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.285719",
+              "stop_lon": "-71.347133"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Wellesley Square",
+              "stop_name": "Wellesley Square",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.297526",
+              "stop_lon": "-71.294173"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Wellesley Hills",
+              "stop_name": "Wellesley Hills",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.31037",
+              "stop_lon": "-71.277044"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Wellesley Farms",
+              "stop_name": "Wellesley Farms",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.323608",
+              "stop_lon": "-71.272288"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Auburndale",
+              "stop_name": "Auburndale",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.345725",
+              "stop_lon": "-71.250826"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "West Newton",
+              "stop_name": "West Newton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.347878",
+              "stop_lon": "-71.230528"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "Newtonville",
+              "stop_name": "Newtonville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.351603",
+              "stop_lon": "-71.207338"
+            },
+            {
+              "stop_order": "15",
+              "stop_id": "Yawkey",
+              "stop_name": "Yawkey",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.347581",
+              "stop_lon": "-71.099974"
+            },
+            {
+              "stop_order": "16",
+              "stop_id": "Back Bay",
+              "stop_name": "Back Bay",
+              "parent_station": "place-bbsta",
+              "parent_station_name": "Back Bay",
+              "stop_lat": "42.347487",
+              "stop_lon": "-71.075399"
+            },
+            {
+              "stop_order": "17",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Greenbush",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "JFK/UMASS",
+              "stop_name": "JFK/UMASS",
+              "parent_station": "place-jfk",
+              "parent_station_name": "JFK/Umass",
+              "stop_lat": "42.321123",
+              "stop_lon": "-71.052555"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Quincy Center",
+              "stop_name": "Quincy Center",
+              "parent_station": "place-qnctr",
+              "parent_station_name": "Quincy Center",
+              "stop_lat": "42.251809",
+              "stop_lon": "-71.005409"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Weymouth Landing/ East Braintree",
+              "stop_name": "Weymouth Landing/East Braintree",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.221503",
+              "stop_lon": "-70.968152"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "East Weymouth",
+              "stop_name": "East Weymouth",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.2191",
+              "stop_lon": "-70.9214"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "West Hingham",
+              "stop_name": "West Hingham",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.235838",
+              "stop_lon": "-70.902708"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Nantasket Junction",
+              "stop_name": "Nantasket Junction",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.244959",
+              "stop_lon": "-70.869205"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Cohasset",
+              "stop_name": "Cohasset",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.24421",
+              "stop_lon": "-70.837529"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "North Scituate",
+              "stop_name": "North Scituate",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.219528",
+              "stop_lon": "-70.788602"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Greenbush",
+              "stop_name": "Greenbush",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.178776",
+              "stop_lon": "-70.746641"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Greenbush",
+              "stop_name": "Greenbush",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.178776",
+              "stop_lon": "-70.746641"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "North Scituate",
+              "stop_name": "North Scituate",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.219528",
+              "stop_lon": "-70.788602"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Cohasset",
+              "stop_name": "Cohasset",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.24421",
+              "stop_lon": "-70.837529"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Nantasket Junction",
+              "stop_name": "Nantasket Junction",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.244959",
+              "stop_lon": "-70.869205"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "West Hingham",
+              "stop_name": "West Hingham",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.235838",
+              "stop_lon": "-70.902708"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "East Weymouth",
+              "stop_name": "East Weymouth",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.2191",
+              "stop_lon": "-70.9214"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Weymouth Landing/ East Braintree",
+              "stop_name": "Weymouth Landing/East Braintree",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.221503",
+              "stop_lon": "-70.968152"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Quincy Center",
+              "stop_name": "Quincy Center",
+              "parent_station": "place-qnctr",
+              "parent_station_name": "Quincy Center",
+              "stop_lat": "42.251809",
+              "stop_lon": "-71.005409"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "JFK/UMASS",
+              "stop_name": "JFK/UMASS",
+              "parent_station": "place-jfk",
+              "parent_station_name": "JFK/Umass",
+              "stop_lat": "42.321123",
+              "stop_lon": "-71.052555"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Haverhill",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "North Station",
+              "stop_name": "North Station",
+              "parent_station": "place-north",
+              "parent_station_name": "North Station",
+              "stop_lat": "42.365551",
+              "stop_lon": "-71.061251"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "West Medford",
+              "stop_name": "West Medford",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.421184",
+              "stop_lon": "-71.132468"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Malden Center",
+              "stop_name": "Malden Center",
+              "parent_station": "place-mlmnl",
+              "parent_station_name": "Malden Center",
+              "stop_lat": "42.426407",
+              "stop_lon": "-71.074227"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Wedgemere",
+              "stop_name": "Wedgemere",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.444948",
+              "stop_lon": "-71.140169"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Wyoming Hill",
+              "stop_name": "Wyoming Hill",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.451731",
+              "stop_lon": "-71.069379"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Winchester Center",
+              "stop_name": "Winchester Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.451088",
+              "stop_lon": "-71.13783"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Melrose Cedar Park",
+              "stop_name": "Melrose Cedar Park",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.458768",
+              "stop_lon": "-71.069789"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Melrose Highlands",
+              "stop_name": "Melrose Highlands",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.469464",
+              "stop_lon": "-71.068297"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Anderson/ Woburn",
+              "stop_name": "Anderson/Woburn",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.516987",
+              "stop_lon": "-71.144475"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Greenwood",
+              "stop_name": "Greenwood",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.483005",
+              "stop_lon": "-71.067247"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Wilmington",
+              "stop_name": "Wilmington",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.546624",
+              "stop_lon": "-71.174334"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Wakefield",
+              "stop_name": "Wakefield",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.502126",
+              "stop_lon": "-71.075566"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Reading",
+              "stop_name": "Reading",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.52148",
+              "stop_lon": "-71.10744"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "North Wilmington",
+              "stop_name": "North Wilmington",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.569661",
+              "stop_lon": "-71.159696"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Ballardvale",
+              "stop_name": "Ballardvale",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.627356",
+              "stop_lon": "-71.159962"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Andover",
+              "stop_name": "Andover",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.658336",
+              "stop_lon": "-71.144502"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Lawrence",
+              "stop_name": "Lawrence",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.701806",
+              "stop_lon": "-71.15198"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Bradford",
+              "stop_name": "Bradford",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.766912",
+              "stop_lon": "-71.088411"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "Haverhill",
+              "stop_name": "Haverhill",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.773474",
+              "stop_lon": "-71.086237"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Haverhill",
+              "stop_name": "Haverhill",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.773474",
+              "stop_lon": "-71.086237"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Bradford",
+              "stop_name": "Bradford",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.766912",
+              "stop_lon": "-71.088411"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Lawrence",
+              "stop_name": "Lawrence",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.701806",
+              "stop_lon": "-71.15198"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Andover",
+              "stop_name": "Andover",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.658336",
+              "stop_lon": "-71.144502"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Ballardvale",
+              "stop_name": "Ballardvale",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.627356",
+              "stop_lon": "-71.159962"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "North Wilmington",
+              "stop_name": "North Wilmington",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.569661",
+              "stop_lon": "-71.159696"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Reading",
+              "stop_name": "Reading",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.52148",
+              "stop_lon": "-71.10744"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Wakefield",
+              "stop_name": "Wakefield",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.502126",
+              "stop_lon": "-71.075566"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Greenwood",
+              "stop_name": "Greenwood",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.483005",
+              "stop_lon": "-71.067247"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Melrose Highlands",
+              "stop_name": "Melrose Highlands",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.469464",
+              "stop_lon": "-71.068297"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Melrose Cedar Park",
+              "stop_name": "Melrose Cedar Park",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.458768",
+              "stop_lon": "-71.069789"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Wyoming Hill",
+              "stop_name": "Wyoming Hill",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.451731",
+              "stop_lon": "-71.069379"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Malden Center",
+              "stop_name": "Malden Center",
+              "parent_station": "place-mlmnl",
+              "parent_station_name": "Malden Center",
+              "stop_lat": "42.426407",
+              "stop_lon": "-71.074227"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "North Station",
+              "stop_name": "North Station",
+              "parent_station": "place-north",
+              "parent_station_name": "North Station",
+              "stop_lat": "42.365551",
+              "stop_lon": "-71.061251"
+            }
+          ]
+        }
+      ],
+
+      "route_id": "CR-Kingston",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "JFK/UMASS",
+              "stop_name": "JFK/UMASS",
+              "parent_station": "place-jfk",
+              "parent_station_name": "JFK/Umass",
+              "stop_lat": "42.321123",
+              "stop_lon": "-71.052555"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Quincy Center",
+              "stop_name": "Quincy Center",
+              "parent_station": "place-qnctr",
+              "parent_station_name": "Quincy Center",
+              "stop_lat": "42.251809",
+              "stop_lon": "-71.005409"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Braintree",
+              "stop_name": "Braintree",
+              "parent_station": "place-brntn",
+              "parent_station_name": "Braintree",
+              "stop_lat": "42.207854",
+              "stop_lon": "-71.001139"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "South Weymouth",
+              "stop_name": "South Weymouth",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.155025",
+              "stop_lon": "-70.953302"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Abington",
+              "stop_name": "Abington",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.107156",
+              "stop_lon": "-70.934405"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Whitman",
+              "stop_name": "Whitman",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.082749",
+              "stop_lon": "-70.923411"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Hanson",
+              "stop_name": "Hanson",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.043967",
+              "stop_lon": "-70.882438"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Halifax",
+              "stop_name": "Halifax",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.014739",
+              "stop_lon": "-70.824263"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Kingston",
+              "stop_name": "Kingston",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.97762",
+              "stop_lon": "-70.721709"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Plymouth",
+              "stop_name": "Plymouth",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.981278",
+              "stop_lon": "-70.690421"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "2",
+              "stop_id": "Kingston",
+              "stop_name": "Kingston",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.97762",
+              "stop_lon": "-70.721709"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Plymouth",
+              "stop_name": "Plymouth",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.981278",
+              "stop_lon": "-70.690421"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Halifax",
+              "stop_name": "Halifax",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.014739",
+              "stop_lon": "-70.824263"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Hanson",
+              "stop_name": "Hanson",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.043967",
+              "stop_lon": "-70.882438"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Whitman",
+              "stop_name": "Whitman",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.082749",
+              "stop_lon": "-70.923411"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Abington",
+              "stop_name": "Abington",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.107156",
+              "stop_lon": "-70.934405"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "South Weymouth",
+              "stop_name": "South Weymouth",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.155025",
+              "stop_lon": "-70.953302"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Braintree",
+              "stop_name": "Braintree",
+              "parent_station": "place-brntn",
+              "parent_station_name": "Braintree",
+              "stop_lat": "42.207854",
+              "stop_lon": "-71.001139"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Quincy Center",
+              "stop_name": "Quincy Center",
+              "parent_station": "place-qnctr",
+              "parent_station_name": "Quincy Center",
+              "stop_lat": "42.251809",
+              "stop_lon": "-71.005409"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "JFK/UMASS",
+              "stop_name": "JFK/UMASS",
+              "parent_station": "place-jfk",
+              "parent_station_name": "JFK/Umass",
+              "stop_lat": "42.321123",
+              "stop_lon": "-71.052555"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Lowell",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "North Station",
+              "stop_name": "North Station",
+              "parent_station": "place-north",
+              "parent_station_name": "North Station",
+              "stop_lat": "42.365551",
+              "stop_lon": "-71.061251"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "West Medford",
+              "stop_name": "West Medford",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.421184",
+              "stop_lon": "-71.132468"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Wedgemere",
+              "stop_name": "Wedgemere",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.444948",
+              "stop_lon": "-71.140169"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Winchester Center",
+              "stop_name": "Winchester Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.451088",
+              "stop_lon": "-71.13783"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Mishawum",
+              "stop_name": "Mishawum",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.504402",
+              "stop_lon": "-71.137618"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Anderson/ Woburn",
+              "stop_name": "Anderson/Woburn",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.516987",
+              "stop_lon": "-71.144475"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Wilmington",
+              "stop_name": "Wilmington",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.546624",
+              "stop_lon": "-71.174334"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "North Billerica",
+              "stop_name": "North Billerica",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.593248",
+              "stop_lon": "-71.280995"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Lowell",
+              "stop_name": "Lowell",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.63535",
+              "stop_lon": "-71.314543"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Lowell",
+              "stop_name": "Lowell",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.63535",
+              "stop_lon": "-71.314543"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "North Billerica",
+              "stop_name": "North Billerica",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.593248",
+              "stop_lon": "-71.280995"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Wilmington",
+              "stop_name": "Wilmington",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.546624",
+              "stop_lon": "-71.174334"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Anderson/ Woburn",
+              "stop_name": "Anderson/Woburn",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.516987",
+              "stop_lon": "-71.144475"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Mishawum",
+              "stop_name": "Mishawum",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.504402",
+              "stop_lon": "-71.137618"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Winchester Center",
+              "stop_name": "Winchester Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.451088",
+              "stop_lon": "-71.13783"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Wedgemere",
+              "stop_name": "Wedgemere",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.444948",
+              "stop_lon": "-71.140169"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "West Medford",
+              "stop_name": "West Medford",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.421184",
+              "stop_lon": "-71.132468"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "North Station",
+              "stop_name": "North Station",
+              "parent_station": "place-north",
+              "parent_station_name": "North Station",
+              "stop_lat": "42.365551",
+              "stop_lon": "-71.061251"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Middleborough",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "JFK/UMASS",
+              "stop_name": "JFK/UMASS",
+              "parent_station": "place-jfk",
+              "parent_station_name": "JFK/Umass",
+              "stop_lat": "42.321123",
+              "stop_lon": "-71.052555"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Quincy Center",
+              "stop_name": "Quincy Center",
+              "parent_station": "place-qnctr",
+              "parent_station_name": "Quincy Center",
+              "stop_lat": "42.251809",
+              "stop_lon": "-71.005409"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Braintree",
+              "stop_name": "Braintree",
+              "parent_station": "place-brntn",
+              "parent_station_name": "Braintree",
+              "stop_lat": "42.207854",
+              "stop_lon": "-71.001139"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Holbrook/ Randolph",
+              "stop_name": "Holbrook/Randolph",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.156343",
+              "stop_lon": "-71.027371"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Montello",
+              "stop_name": "Montello",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.106555",
+              "stop_lon": "-71.022001"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Brockton",
+              "stop_name": "Brockton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.08572",
+              "stop_lon": "-71.0166"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Campello",
+              "stop_name": "Campello",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.060951",
+              "stop_lon": "-71.011004"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Bridgewater",
+              "stop_name": "Bridgewater",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.984916",
+              "stop_lon": "-70.96537"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Middleborough/ Lakeville",
+              "stop_name": "Middleborough/Lakeville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.87821",
+              "stop_lon": "-70.918444"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Middleborough/ Lakeville",
+              "stop_name": "Middleborough/Lakeville",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.87821",
+              "stop_lon": "-70.918444"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Bridgewater",
+              "stop_name": "Bridgewater",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "41.984916",
+              "stop_lon": "-70.96537"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Campello",
+              "stop_name": "Campello",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.060951",
+              "stop_lon": "-71.011004"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Brockton",
+              "stop_name": "Brockton",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.08572",
+              "stop_lon": "-71.0166"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Montello",
+              "stop_name": "Montello",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.106555",
+              "stop_lon": "-71.022001"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Holbrook/ Randolph",
+              "stop_name": "Holbrook/Randolph",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.156343",
+              "stop_lon": "-71.027371"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Braintree",
+              "stop_name": "Braintree",
+              "parent_station": "place-brntn",
+              "parent_station_name": "Braintree",
+              "stop_lat": "42.207854",
+              "stop_lon": "-71.001139"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Quincy Center",
+              "stop_name": "Quincy Center",
+              "parent_station": "place-qnctr",
+              "parent_station_name": "Quincy Center",
+              "stop_lat": "42.251809",
+              "stop_lon": "-71.005409"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "JFK/UMASS",
+              "stop_name": "JFK/UMASS",
+              "parent_station": "place-jfk",
+              "parent_station_name": "JFK/Umass",
+              "stop_lat": "42.321123",
+              "stop_lon": "-71.052555"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Needham",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Back Bay",
+              "stop_name": "Back Bay",
+              "parent_station": "place-bbsta",
+              "parent_station_name": "Back Bay",
+              "stop_lat": "42.347487",
+              "stop_lon": "-71.075399"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Ruggles",
+              "stop_name": "Ruggles",
+              "parent_station": "place-rugg",
+              "parent_station_name": "Ruggles",
+              "stop_lat": "42.336505",
+              "stop_lon": "-71.089189"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Forest Hills",
+              "stop_name": "Forest Hills",
+              "parent_station": "place-forhl",
+              "parent_station_name": "Forest Hills",
+              "stop_lat": "42.300635",
+              "stop_lon": "-71.114009"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Roslindale Village",
+              "stop_name": "Roslindale Village",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.287442",
+              "stop_lon": "-71.130283"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Bellevue",
+              "stop_name": "Bellevue",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.286588",
+              "stop_lon": "-71.145557"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Highland",
+              "stop_name": "Highland",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.284969",
+              "stop_lon": "-71.153937"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "West Roxbury",
+              "stop_name": "West Roxbury",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.281358",
+              "stop_lon": "-71.160065"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Hersey",
+              "stop_name": "Hersey",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.275648",
+              "stop_lon": "-71.215528"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Needham Junction",
+              "stop_name": "Needham Junction",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.273187",
+              "stop_lon": "-71.235559"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Needham Center",
+              "stop_name": "Needham Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.280775",
+              "stop_lon": "-71.237686"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Needham Heights",
+              "stop_name": "Needham Heights",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.293444",
+              "stop_lon": "-71.236027"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Needham Heights",
+              "stop_name": "Needham Heights",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.293444",
+              "stop_lon": "-71.236027"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Needham Center",
+              "stop_name": "Needham Center",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.280775",
+              "stop_lon": "-71.237686"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Needham Junction",
+              "stop_name": "Needham Junction",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.273187",
+              "stop_lon": "-71.235559"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Hersey",
+              "stop_name": "Hersey",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.275648",
+              "stop_lon": "-71.215528"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "West Roxbury",
+              "stop_name": "West Roxbury",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.281358",
+              "stop_lon": "-71.160065"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Highland",
+              "stop_name": "Highland",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.284969",
+              "stop_lon": "-71.153937"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Bellevue",
+              "stop_name": "Bellevue",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.286588",
+              "stop_lon": "-71.145557"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Roslindale Village",
+              "stop_name": "Roslindale Village",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.287442",
+              "stop_lon": "-71.130283"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Forest Hills",
+              "stop_name": "Forest Hills",
+              "parent_station": "place-forhl",
+              "parent_station_name": "Forest Hills",
+              "stop_lat": "42.300635",
+              "stop_lon": "-71.114009"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Ruggles",
+              "stop_name": "Ruggles",
+              "parent_station": "place-rugg",
+              "parent_station_name": "Ruggles",
+              "stop_lat": "42.336505",
+              "stop_lon": "-71.089189"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Back Bay",
+              "stop_name": "Back Bay",
+              "parent_station": "place-bbsta",
+              "parent_station_name": "Back Bay",
+              "stop_lat": "42.347487",
+              "stop_lon": "-71.075399"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            }
+          ]
+        }
+      ],
+      "route_id": "CR-Newburyport",
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "North Station",
+              "stop_name": "North Station",
+              "parent_station": "place-north",
+              "parent_station_name": "North Station",
+              "stop_lat": "42.365551",
+              "stop_lon": "-71.061251"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Chelsea",
+              "stop_name": "Chelsea",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.395689",
+              "stop_lon": "-71.034281"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "River Works / GE Employees Only",
+              "stop_name": "River Works/GE Employees Only",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.449927",
+              "stop_lon": "-70.969848"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Lynn",
+              "stop_name": "Lynn",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.462953",
+              "stop_lon": "-70.945421"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Swampscott",
+              "stop_name": "Swampscott",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.473743",
+              "stop_lon": "-70.922537"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Salem",
+              "stop_name": "Salem",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.524792",
+              "stop_lon": "-70.895876"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Beverly",
+              "stop_name": "Beverly",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.547276",
+              "stop_lon": "-70.885432"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "North Beverly",
+              "stop_name": "North Beverly",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.583779",
+              "stop_lon": "-70.883851"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Montserrat",
+              "stop_name": "Montserrat",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.562171",
+              "stop_lon": "-70.869254"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Prides Crossing",
+              "stop_name": "Prides Crossing",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.559446",
+              "stop_lon": "-70.825541"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Hamilton/ Wenham",
+              "stop_name": "Hamilton/Wenham",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.609212",
+              "stop_lon": "-70.874801"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Ipswich",
+              "stop_name": "Ipswich",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.676921",
+              "stop_lon": "-70.840589"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Beverly Farms",
+              "stop_name": "Beverly Farms",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.561651",
+              "stop_lon": "-70.811405"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Manchester",
+              "stop_name": "Manchester",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.573687",
+              "stop_lon": "-70.77009"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Rowley",
+              "stop_name": "Rowley",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.726845",
+              "stop_lon": "-70.859034"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "Newburyport",
+              "stop_name": "Newburyport",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.797837",
+              "stop_lon": "-70.87797"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "West Gloucester",
+              "stop_name": "West Gloucester",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.611933",
+              "stop_lon": "-70.705417"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Gloucester",
+              "stop_name": "Gloucester",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.616799",
+              "stop_lon": "-70.668345"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "Rockport",
+              "stop_name": "Rockport",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.655491",
+              "stop_lon": "-70.627055"
+            }
+          ]
+        },
+        {
+          "direction_id": "1",
+          "direction_name": "Inbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "Newburyport",
+              "stop_name": "Newburyport",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.797837",
+              "stop_lon": "-70.87797"
+            },
+            {
+              "stop_order": "1",
+              "stop_id": "Rockport",
+              "stop_name": "Rockport",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.655491",
+              "stop_lon": "-70.627055"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Rowley",
+              "stop_name": "Rowley",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.726845",
+              "stop_lon": "-70.859034"
+            },
+            {
+              "stop_order": "2",
+              "stop_id": "Gloucester",
+              "stop_name": "Gloucester",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.616799",
+              "stop_lon": "-70.668345"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "Ipswich",
+              "stop_name": "Ipswich",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.676921",
+              "stop_lon": "-70.840589"
+            },
+            {
+              "stop_order": "3",
+              "stop_id": "West Gloucester",
+              "stop_name": "West Gloucester",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.611933",
+              "stop_lon": "-70.705417"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Hamilton/ Wenham",
+              "stop_name": "Hamilton/Wenham",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.609212",
+              "stop_lon": "-70.874801"
+            },
+            {
+              "stop_order": "4",
+              "stop_id": "Manchester",
+              "stop_name": "Manchester",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.573687",
+              "stop_lon": "-70.77009"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "North Beverly",
+              "stop_name": "North Beverly",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.583779",
+              "stop_lon": "-70.883851"
+            },
+            {
+              "stop_order": "5",
+              "stop_id": "Beverly Farms",
+              "stop_name": "Beverly Farms",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.561651",
+              "stop_lon": "-70.811405"
+            },
+            {
+              "stop_order": "6",
+              "stop_id": "Prides Crossing",
+              "stop_name": "Prides Crossing",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.559446",
+              "stop_lon": "-70.825541"
+            },
+            {
+              "stop_order": "7",
+              "stop_id": "Montserrat",
+              "stop_name": "Montserrat",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.562171",
+              "stop_lon": "-70.869254"
+            },
+            {
+              "stop_order": "8",
+              "stop_id": "Beverly",
+              "stop_name": "Beverly",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.547276",
+              "stop_lon": "-70.885432"
+            },
+            {
+              "stop_order": "9",
+              "stop_id": "Salem",
+              "stop_name": "Salem",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.524792",
+              "stop_lon": "-70.895876"
+            },
+            {
+              "stop_order": "10",
+              "stop_id": "Swampscott",
+              "stop_name": "Swampscott",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.473743",
+              "stop_lon": "-70.922537"
+            },
+            {
+              "stop_order": "11",
+              "stop_id": "Lynn",
+              "stop_name": "Lynn",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.462953",
+              "stop_lon": "-70.945421"
+            },
+            {
+              "stop_order": "12",
+              "stop_id": "River Works / GE Employees Only",
+              "stop_name": "River Works/GE Employees Only",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.449927",
+              "stop_lon": "-70.969848"
+            },
+            {
+              "stop_order": "13",
+              "stop_id": "Chelsea",
+              "stop_name": "Chelsea",
+              "parent_station": "",
+              "parent_station_name": "",
+              "stop_lat": "42.395689",
+              "stop_lon": "-71.034281"
+            },
+            {
+              "stop_order": "14",
+              "stop_id": "North Station",
+              "stop_name": "North Station",
+              "parent_station": "place-north",
+              "parent_station_name": "North Station",
+              "stop_lat": "42.365551",
+              "stop_lon": "-71.061251"
+            }
+          ]
+        }
+      ]
+    }]
+}

@@ -1,0 +1,25 @@
+﻿{
+  "route": [
+    {
+      "route_id": "CR-Franklin",
+
+      "direction": [
+        {
+          "direction_id": "0",
+          "direction_name": "Outbound",
+          "stop": [
+            {
+              "stop_order": "1",
+              "stop_id": "South Station",
+              "stop_name": "South Station",
+              "parent_station": "place-sstat",
+              "parent_station_name": "South Station",
+              "stop_lat": "42.35176309",
+              "stop_lon": "-71.05479665"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

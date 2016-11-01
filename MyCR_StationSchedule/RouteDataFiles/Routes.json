@@ -1,0 +1,59 @@
+﻿{
+  "mode": [
+    {
+      "route_type": "2",
+      "mode_name": "Commuter Rail",
+      
+      "route": [
+        {
+          "route_id": "CR-Fairmount",
+          "route_name": "Fairmount Line"
+        },
+        {
+          "route_id": "CR-Fitchburg",
+          "route_name": "Fitchburg Line"
+        },
+        {
+          "route_id": "CR-Worcester",
+          "route_name": "Framingham/Worcester Line"
+        },
+        {
+          "route_id": "CR-Franklin",
+          "route_name": "Franklin Line"
+        },
+        {
+          "route_id": "CR-Greenbush",
+          "route_name": "Greenbush Line"
+        },
+        {
+          "route_id": "CR-Haverhill",
+          "route_name": "Haverhill Line"
+        },
+        {
+          "route_id": "CR-Kingston",
+          "route_name": "Kingston/Plymouth Line"
+        },
+        {
+          "route_id": "CR-Lowell",
+          "route_name": "Lowell Line"
+        },
+        {
+          "route_id": "CR-Middleborough",
+          "route_name": "Middleborough/Lakeville Line"
+        },
+        {
+          "route_id": "CR-Needham",
+          "route_name": "Needham Line"
+        },
+        {
+          "route_id": "CR-Newburyport",
+          "route_name": "Newburyport/Rockport Line"
+        },
+        {
+          "route_id": "CR-Providence",
+          "route_name": "Providence/Stoughton Line"
+        }
+      ]
+    }
+  ]
+}

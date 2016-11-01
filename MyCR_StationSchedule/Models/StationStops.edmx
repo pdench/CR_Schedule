@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MyStationScheduleModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'MyStationSchedule.dbo.Schedule' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Schedule">
+          <Property Name="route_id" Type="varchar" MaxLength="50" />
+          <Property Name="service_id" Type="varchar" MaxLength="50" />
+          <Property Name="trip_id" Type="varchar" MaxLength="50" />
+          <Property Name="trip_headsign" Type="varchar" MaxLength="75" />
+          <Property Name="trip_short_name" Type="varchar" MaxLength="50" />
+          <Property Name="direction_id" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="block_id" Type="varchar" MaxLength="50" />
+          <Property Name="shape_id" Type="varchar" MaxLength="50" />
+          <Property Name="wheelchair_accessible" Type="bit" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'MyStationSchedule.dbo.Schedule_Times' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Schedule_Times">
+          <Key>
+            <PropertyRef Name="trip_id" />
+          </Key>
+          <Property Name="trip_id" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="arrival_time" Type="varchar" MaxLength="50" />
+          <Property Name="departure_time" Type="varchar" MaxLength="50" />
+          <Property Name="stop_id" Type="varchar" MaxLength="50" />
+          <Property Name="stop_sequence" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="stop_headsign" Type="varchar" MaxLength="50" />
+          <Property Name="pickup_type" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="drop_off_type" Type="numeric" Precision="18" Scale="0" />
+        </EntityType>
+        <Function Name="usp_GetTrainStopData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Stop" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="MyStationScheduleModelStoreContainer">
+          <EntitySet Name="Schedule_Times" EntityType="Self.Schedule_Times" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Schedule_Times].[trip_id] AS [trip_id], 
+    [Schedule_Times].[arrival_time] AS [arrival_time], 
+    [Schedule_Times].[departure_time] AS [departure_time], 
+    [Schedule_Times].[stop_id] AS [stop_id], 
+    [Schedule_Times].[stop_sequence] AS [stop_sequence], 
+    [Schedule_Times].[stop_headsign] AS [stop_headsign], 
+    [Schedule_Times].[pickup_type] AS [pickup_type], 
+    [Schedule_Times].[drop_off_type] AS [drop_off_type]
+    FROM [dbo].[Schedule_Times] AS [Schedule_Times]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MyStationScheduleModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Schedule_Times">
+          <Key>
+            <PropertyRef Name="trip_id" />
+          </Key>
+          <Property Name="trip_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="arrival_time" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="departure_time" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="stop_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="stop_sequence" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="stop_headsign" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="pickup_type" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="drop_off_type" Type="Decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityContainer Name="MyStationScheduleEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Schedule_Times" EntityType="Self.Schedule_Times" />
+          <FunctionImport Name="usp_GetTrainStopData">
+            <Parameter Name="Stop" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MyStationScheduleModelStoreContainer" CdmEntityContainer="MyStationScheduleEntities1">
+          <EntitySetMapping Name="Schedule_Times">
+            <EntityTypeMapping TypeName="MyStationScheduleModel.Schedule_Times">
+              <MappingFragment StoreEntitySet="Schedule_Times">
+                <ScalarProperty Name="trip_id" ColumnName="trip_id" />
+                <ScalarProperty Name="arrival_time" ColumnName="arrival_time" />
+                <ScalarProperty Name="departure_time" ColumnName="departure_time" />
+                <ScalarProperty Name="stop_id" ColumnName="stop_id" />
+                <ScalarProperty Name="stop_sequence" ColumnName="stop_sequence" />
+                <ScalarProperty Name="stop_headsign" ColumnName="stop_headsign" />
+                <ScalarProperty Name="pickup_type" ColumnName="pickup_type" />
+                <ScalarProperty Name="drop_off_type" ColumnName="drop_off_type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="usp_GetTrainStopData" FunctionName="MyStationScheduleModel.Store.usp_GetTrainStopData" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
