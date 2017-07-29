@@ -79,27 +79,27 @@ namespace MyCR_StationSchedule.Controllers
                 string output = client.DownloadString(url);
                 stopOutput = GetJsonDataFromFile(stopsFile);
 
-                StationStops stops = JsonConvert.DeserializeObject<StationStops>(stopOutput);
-                RouteStops stops2 = JsonConvert.DeserializeObject<RouteStops>(stopOutput);
+                StationStops stops = JsonConvert.DeserializeObject<StationStops>(output);
+                RouteStops stops2 = JsonConvert.DeserializeObject<RouteStops>(output);
 
-                var theseStops = from stop in stops2.route
-                                 where stop.route_id == id
-                                 select stop;
+                //var theseStops = from stop in stops2.route
+                //                 where stop.route_id == id
+                //                 select stop;
 
                 foreach (var stop in stops.direction)
                 {
-                    foreach (var thisStop in stop.stop)
-                    {
-                        stopsList.Add(new SelectListItem { Text = thisStop.stop_name, Value = thisStop.stop_id });
-                    }
+                    //foreach (var thisStop in stop.stop)
+                    //{
+                    //    stopsList.Add(new SelectListItem { Text = thisStop.stop_name, Value = thisStop.stop_id });
+                    //}
                     //foreach (var stop in item)
-                    //    if (stop.direction_id == inOrOut)
-                    //    {
-                    //        foreach (var thisStop in stop.stop)
-                    //        {
-                    //            stopsList.Add(new SelectListItem { Text = thisStop.stop_name, Value = thisStop.stop_id });
-                    //        }
-                    //    }
+                        if (stop.direction_id == inOrOut)
+                        {
+                            foreach (var thisStop in stop.stop)
+                            {
+                                stopsList.Add(new SelectListItem { Text = thisStop.stop_name, Value = thisStop.stop_order });
+                            }
+                        }
                 }
             }
             catch (Exception e)
@@ -111,10 +111,20 @@ namespace MyCR_StationSchedule.Controllers
 
         }
 
-        public JsonResult GetSchedules(string from, string to)
+        public JsonResult GetSchedules(string from, string to, string fromSeq, string toSeq)
         {
-            string sql = "usp_GetTrainStopData @StopFrom, @StopTo";
+            string sql = "EXEC usp_GetTrainStopData @StopFrom, @StopTo, @TripDirection";
             List<OutputStops> scheduledStops = new List<OutputStops>();
+
+            int tripDirection = (int)Common.Enums.TripDirection.OUTBOUND;
+            int fromSeqNum = Convert.ToInt16(fromSeq);
+            int toSeqNum = Convert.ToInt16(toSeq);
+
+            // based on the "stop order" from the stops dropdown, check if user selected an inbound or outbound trip
+            if (fromSeqNum > toSeqNum)
+            {
+                tripDirection = (int)Common.Enums.TripDirection.INBOUND;
+            }
 
             try
             {
@@ -124,7 +134,8 @@ namespace MyCR_StationSchedule.Controllers
                     SqlParameter stop1 = new SqlParameter("@Stop", from);
                     var stops = context.Database.SqlQuery<usp_GetTrainStopData>(sql,
                         new SqlParameter("@StopFrom", from),
-                        new SqlParameter("@StopTo", to)
+                        new SqlParameter("@StopTo", to),
+                        new SqlParameter("@TripDirection", tripDirection)
                         ).ToList();
 
                     bool prevWasBeforeNow = true;
@@ -143,6 +154,9 @@ namespace MyCR_StationSchedule.Controllers
                                 prevWasBeforeNow = false;
                             }
                         }
+                        //System.Diagnostics.Debug.WriteLine("train #: " + item.train_number);
+                        //System.Diagnostics.Debug.WriteLine("depart time: " + item.departure_time);
+                        //System.Diagnostics.Debug.WriteLine("arrive time: " + item.origination_time);
                         thisStop.ArrivalTime = GetTime(item.arrival_time);
                         thisStop.Direction = item.direction;
                         thisStop.Timing = item.Timing;
@@ -179,15 +193,21 @@ namespace MyCR_StationSchedule.Controllers
             // if a time is after midnight, the schedule shows the 
             // hour as 24 or higher; this cannot be parsed, so we
             // need to adjust the hour value.
-            string hour = inputTime.Substring(0, 2);
-            if (hour.CompareTo("23") > 0)
-            {
-                int intHour = Int16.Parse(hour);
-                intHour = intHour - 24;
-                inputTime = intHour.ToString() + inputTime.Substring(2, 6);
-            }
             try
             {
+                System.Diagnostics.Debug.WriteLine(inputTime);
+                //inputTime = DateTime.Parse(inputTime).ToString(@"HH\:mm\:ss tt");
+                string hour = inputTime.Substring(0, 2);
+                if (hour.Contains(":"))
+                {
+                    hour = "0" + hour.Substring(1, 1);
+                } 
+                if (hour.CompareTo("23") > 0)
+                {
+                    int intHour = Int16.Parse(hour);
+                    intHour = intHour - 24;
+                    inputTime = intHour.ToString() + inputTime.Substring(2, 6);
+                }
                 return DateTime.Parse(inputTime).ToString(@"hh\:mm\:ss tt");
             }
             catch (Exception ex)

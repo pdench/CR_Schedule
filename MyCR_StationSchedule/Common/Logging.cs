@@ -25,12 +25,4 @@ namespace MyCR_StationSchedule.Common
 
     }
 
-    public class Testing
-    {
-        public string test()
-        {
-            return "s";
-        }
-
-    }
 }
